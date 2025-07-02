@@ -1,0 +1,20 @@
+table, td, th{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+/* th, td {
+background-color: pink;
+} */
+th, td {
+padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: red;
+}
+tr:nth-child(odd) {
+    background-color: green;
+}
+ul{
+    float: left;
+}

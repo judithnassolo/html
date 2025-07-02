@@ -1,0 +1,63 @@
+body {
+
+    background-color: burlywood;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.mycontainer {
+    background: white;
+    display: flex;
+    padding: 10%;
+    width: 40%;
+    border: solid 5px;
+    box-shadow: gray;
+    
+}
+.sign-up{
+    display: flex;
+    width: 100%;
+}
+.advert {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+.advert img {
+    width: 40%;
+border-radius: 8px;
+
+}
+.login {
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    align-content: end;
+}
+form input {
+    margin: 5px;
+    padding: 10px;
+    border: solid 2px;
+    width: 100%;
+}
+form label {
+    font-size: 15px;
+    display: block;
+}
+button {
+    padding: 10px;
+    background-color: brown;
+    color: white;
+    font-size: medium;
+    border-radius: 8px;
+    width: 100%;
+
+}
+p a {
+    color: pink;
+}

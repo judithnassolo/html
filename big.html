@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A comprehensive webpage with multiple sections and features.">
+    <title>Big HTML Template</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<a href="#footer">click here to visit the footer</a>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h1>Welcome to Our Website</h1>
+        <p>Your journey to success starts here.</p>
+        <button><a href="#services">Explore More</a></button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a company dedicated to providing the best solutions for our clients. Our team of experts is ready to help you succeed.</p>
+        <img src="about.jpg" alt="About Us Image">
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-card">
+            <h3>Web Development</h3>
+            <p>Building responsive and dynamic websites.</p>
+        </div>
+        <div class="service-card">
+            <h3>SEO Optimization</h3>
+            <p>Improving your website's search engine rankings.</p>
+        </div>
+        <div class="service-card">
+            <h3>Digital Marketing</h3>
+            <p>Helping you reach your audience with effective campaigns.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Our Portfolio</h2>
+        <div class="portfolio-item">
+            <img src="portfolio1.jpg" alt="Project 1">
+            <p>Project 1 Description</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="portfolio2.jpg" alt="Project 2">
+            <p>Project 2 Description</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="portfolio3.jpg" alt="Project 3">
+            <p>Project 3 Description</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <p>&copy; 2025 Our Company. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
